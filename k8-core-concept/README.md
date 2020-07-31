@@ -18,7 +18,7 @@
    -  Containers are inside pod 
    -Pod is like a space suit and human is the container 
 ## Building blocks
-    *Pod  
+    * Pod  
     ** Container
    - Service
    - Deployment 
