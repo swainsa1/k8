@@ -63,13 +63,24 @@ Kubectl basic commands
   - cluster-info
   - get all : Retrieves information about pods,deployments services and more
   - run [container name] -- image=[image-name]
-  - port-foreward [pod] [port] : FOrward a port to allow external access
+  - ```port-foreward [pod] [port] ```: FOrward a port to allow external access
   - expose : Expose a port for a deployment/pod
   - create : create a new resource
   - apply : modify a resource
+###### Options
+   --dry-run : Give it a trial run without really starting the pod 
+   --validate=true : Validate yaml files for synatical error 
+   -  By default --validate= true 
+  
+  
 
 
+## 
+Kubernetes with docker desktop 
+- To enable docker desktop with kubectl goto docker -> preference ->Enable kubernete
+- Issue : If you see that kubernets is hanging while starting with an error "Keubernetes Starting"
 
+- There was a suggestion to remove the pki folder ```rm -rf  ~/Library/Group\ Containers/group.com.docker/pki```
 
 
 
